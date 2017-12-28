@@ -25,7 +25,7 @@ def file_sentiment(filename, count_):
         except UnicodeDecodeError:
             print "Unreadable line: ", line
         
-    return total_polarity, total_subjectivity / line_count
+    return total_polarity / line_count, total_subjectivity / line_count
 
 # Retrieves, sorts, and returns
 # all valid txt files in directory
