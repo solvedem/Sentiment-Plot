@@ -19,7 +19,7 @@ Users then place the plot_sentiment.py file in a directory with multiple text fi
 
 After running plot_sentiment.py, the resulting plot will show the polarity of the words of each file.
 
-[![figure_2.png](https://s14.postimg.org/v7o9grjdt/figure_2.png)](https://postimg.org/image/ejwre9om5/)
+[![sent1.png](https://s17.postimg.org/o3f53zvsv/sent1.png)](https://postimg.org/image/dglbyknnf/)
 
 The blue dots illustrate the polarity of individual lines from a given file. The black dots show the total polarity of the lines in that file. The polarity of an individual line is a float within the range [-1.0, 1.0]. Summing these lines gives a good idea of the sentiment of a file.
 
