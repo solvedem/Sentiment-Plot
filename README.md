@@ -21,7 +21,7 @@ Run plot_sentiment.py.
 
 [![sent1.png](https://s17.postimg.org/o3f53zvsv/sent1.png)](https://postimg.org/image/dglbyknnf/)
 
-Blue dots illustrate the polarity of individual lines from a given file. Black dots illustrate the polarity of the entire file. The polarity of an individual line is a float within the range [-1.0, 1.0]. 
+Blue dots illustrate the polarity of individual lines from a given file. Black dots illustrate the average polarity of the entire file's contents. The polarity of an individual line is a float within the range [-1.0, 1.0]. 
 
 The helper file clean_files.py creates copies of all files in a directory without characters that the TextBlob libary finds invalid. Useful for automating the cleaning data before running the plot_sentiment.py file.
 
